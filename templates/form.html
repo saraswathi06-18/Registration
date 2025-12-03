@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Event Registration Form</title>
+    
+</head>
+<body>
+    <h2>Event Registration</h2>
+    <form action="/register" method="POST">
+        
+        <label>Name:</label><br>
+        <input type="text" name="name" required><br><br>
+        
+        <label>Roll Number:</label><br>
+        <input type="text" name="roll" required><br><br>
+        
+        <label>Email:</label><br>
+        <input type="email" name="email" required><br><br>
+        
+        <label>Academic Year:</label><br>
+        <select name="year" required>
+            <option value="1st Year">1st Year</option>
+            <option value="2nd Year">2nd Year</option>
+            <option value="3rd Year">3rd Year</option>
+            <option value="4th Year">4th Year</option>
+        </select><br><br>
+        
+        <input type="submit" value="Register">
+    </form>
+</body>
+</html>
